@@ -40,7 +40,7 @@ else:
     print("Fail")
 
 
-
+# Nested else statement 
 
 mark2 = int(input("Please input students mark:"))
 

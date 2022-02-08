@@ -28,16 +28,26 @@ elif age >= 20:
 else:
     print("You are below 20 years old")   
         
-# exercise 2
+# exercise 2 elif
 
 mark = int(input("Please input students mark:"))
 
-if mark > 85:
+if mark >= 85:
    print("Distinction")
-elif 65 <= mark <= 85:
+elif 65 <= mark < 85:
     print("Pass")
 else:
     print("Fail")
 
 
 
+
+mark2 = int(input("Please input students mark:"))
+
+if mark2 >= 65:
+    if mark2 >= 85:
+        print("Distinction")
+    else:
+        print("Pass")
+else:
+    print("Fail")
